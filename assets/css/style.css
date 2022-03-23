@@ -155,7 +155,7 @@ section {
 /* chapter 4 */
 
 .intro {
-    text-align: center;
+    text-align: ;
 }
 
 .intro h2 {
@@ -169,10 +169,11 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto; /* common tactic to center block elemtent with width less than 100% */
+    text-align: center;
     }
 
 .steps {
-    text-align: center;
+    text-align: ;
     background: #fce138;
 }
 
@@ -189,10 +190,12 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
+    margin: 0 auto 35px auto;
+    padding-bottom: 20px;
+    display: ;
     border-bottom: 3px solid;
+    text-align: center;
+    width: 50%;
 }
 
 .primary-border {
@@ -230,7 +233,7 @@ section {
 /* Chapter 5 */
 
 .trainers {
-    text-align: center;
+    text-align: ;
 }
 
 
@@ -287,7 +290,7 @@ section {
 }
 
 .contact {
-    text-align: center;
+    text-align: ;
     background: #024e76;
 }
 
@@ -331,4 +334,8 @@ section {
 
 .secondary-content {
 
+}
+
+.flex-row {
+    display: flex;
 }
